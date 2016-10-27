@@ -37,7 +37,27 @@ public class Project9 {
         //project 12
         int[] numbers = new int[] {1, 5, 4, 3, 7};
         
+        public class Project13 {
+
+    //13
+    public static void main(String[] args) {
+        int[] numbers;
+        numbers = new int[] {1,5,4,3,8,9,10,21,72,-12};
+        List<Integer> list = new ArrayList<>();
+        for(int i = 0; i < numbers.length; i++){
+        list.add(numbers[i]);        
+        }
+        int sum = 0;
+        for(Integer i : list){
+            sum = sum + i;
+        }
+        System.out.println("The sum of the numbers is " + sum);
         
+        
+    }
+    
+}
+
     }
     
 }
